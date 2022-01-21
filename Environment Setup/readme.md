@@ -1,0 +1,15 @@
+### Environment Setup
+  - Virtual Environment: 
+    - Install the virtualenv. 
+    - Create a virtual environment
+    - Create an environment with a specific version of Python
+    - Create an environment from a requirements.txt file: Typically the steps you always take are:
+      - virtualenv <my_env_name> to create a new environment
+      - source <my_env_name>/bin/activate to activate the new environment
+      - pip install -r requirements.txt to install the requirements in the current environment
+    - Activate the virtual environment: source my_env_name/bin/activate
+   - System Interpreter:
+     - Ensure that you have downloaded and installed Python on computer. If Windows, can download Python from the Microsoft Store and install it as a Python interpreter. Once the Python application is downloaded from the Microsoft Store, it becomes available in the list of the Python executables.
+     - Click the Python Interpreter selector and choose Add Interpreter. Press Ctrl+Alt+S to open the project Settings/Preferences and go to Project <project name> | Python Interpreter. Then click the The Configure project interpreter icon and select Add
+     - In the left-hand pane of the Add Python Interpreter dialog, select System Interpreter.
+     - In the Interpreter field, type the fully-qualified path to the required interpreter executable, or click the Browse button and in the Select Python Interpreter dialog that opens, choose the desired Python executable and click OK.
